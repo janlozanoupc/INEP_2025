@@ -24,14 +24,22 @@ private:
     // Mètodes per a cada cas d'ús
     void iniciarSessio();
     void registrarUsuari();
+    void modificarUsuari();
+    void esborrarUsuari();
     void reservarEscapada();
+    void reservarActivitat();
     void consultarReserves();
+    void consultarExperienciesPerCiutat();
+    void consultarNovetats();
+    void consultarMesReservades();
     void configurarDescompte();
     void mostrarTotesExperiencies();
 
     // Mètodes auxiliars
     void mostrarMenuPrincipal();
     void mostrarMenuUsuari(const string& sobrenom);
+    void mostrarMenuConsultes();
+    void mostrarMenuGestioUsuari();
     void pausar();
     void netejaPantalla();
 
